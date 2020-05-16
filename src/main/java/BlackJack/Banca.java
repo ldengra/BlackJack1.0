@@ -16,8 +16,8 @@ public class Banca {
         return saldo;
     }
 
-    public void setSaldo(int saldo) {
-        this.saldo = saldo;
+    public void setSaldo() {
+        this.saldo = saldoInicial;
     }
 
     public int getContador() {
