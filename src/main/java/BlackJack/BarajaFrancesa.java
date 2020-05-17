@@ -12,6 +12,10 @@ public class BarajaFrancesa extends Baraja {
         super.barajar();
     }
 
+    /**
+     * Se crea un array baraja con el numero de cartas del constructor y se castea a un array de cartas con su palo
+     * asignado y a cada carta se le asgina un palo diferente, cada 13 cartas, se cambia de palo.
+     */
     @Override
     public void crearBaraja() {
 
@@ -28,6 +32,11 @@ public class BarajaFrancesa extends Baraja {
         }
     }
 
+    /**
+     * metodo para saber si la carta seleccionada es roja o negra
+     * @param c
+     * @return
+     */
     public boolean cartaRoja(Carta<Palo> c){
 
         return c.getPalo() == Palo.CORAZONES || c.getPalo() == Palo.DIAMANTES;
