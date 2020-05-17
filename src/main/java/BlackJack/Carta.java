@@ -35,12 +35,15 @@ public class Carta<T> {
                     break;
                 case 11:
                     nombreFigura="Jota";
+                    this.numero=10;
                     break;
                 case 12:
                     nombreFigura="Reina";
+                    this.numero=10;
                     break;
                 case 13:
                     nombreFigura="Rey";
+                    this.numero=10;
                     break;
                 default:
                     nombreFigura = numero+"";

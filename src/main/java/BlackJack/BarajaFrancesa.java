@@ -28,6 +28,7 @@ public class BarajaFrancesa extends Baraja {
 
                 cartas[ (( i * (cartasPorPalo)) + j) ] = new Carta(j + 1, palos[i]);
 
+
             }
         }
     }
