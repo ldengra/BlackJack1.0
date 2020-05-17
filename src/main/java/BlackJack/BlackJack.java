@@ -80,4 +80,8 @@ public class BlackJack {
             }
         }while (!validado);
     }
+
+    public static void mostrarEstadisticas(){
+        System.out.println(estadistica.toString());
+    }
 }

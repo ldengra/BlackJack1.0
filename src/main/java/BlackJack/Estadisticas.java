@@ -27,10 +27,10 @@ public class Estadisticas {
 
     @Override
     public String toString() {
-        return "----------------------------"+
-                "|  PLAYER    |    CPU      |"+
-                "----------------------------"+
-                "|   "+this.puntosPlayer+ "     |   "+this.puntosBanca+"|"+
+        return "----------------------------"+'\n'+
+                "|  PLAYER    |    CPU      |"+'\n'+
+                "----------------------------"+'\n'+
+                "|   "+this.puntosPlayer+ "        |     "+this.puntosBanca+"       |"+'\n'+
                 "----------------------------";
     }
 }

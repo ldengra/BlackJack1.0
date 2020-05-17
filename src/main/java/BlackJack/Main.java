@@ -18,7 +18,7 @@ public class Main {
                     BlackJack.nuevaPartida();
                     break;
                 case 2:
-                    //mostrarEstadisticas();
+                    mostrarEstadisticas();
                 case 0:
                     salir = true;
                     break;
@@ -54,5 +54,8 @@ public class Main {
         return opcion;
     }
 
+    public static void mostrarEstadisticas(){
+        BlackJack.mostrarEstadisticas();
+    }
 
 }
